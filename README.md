@@ -1,16 +1,16 @@
 # DDB Data Grabber Chrome Extension
 
 This is a helper extension for 
-- [MrPrimate's DDB-Importer](https://github.com/mrprimate/ddb-importer)
 - [IamWarHead's DDB-Gamelog](https://github.com/iamwarhead/ddb-game-log)
+- [MrPrimate's DDB-Importer](https://github.com/mrprimate/ddb-importer)
 
 Right now it helps you extract the dndbeyond.com Cobalt Session token and Cobalt UserID to use for authentication against their api endpoints.
 
 ## Installation
 
 Download the latest release zip from one of the following urls:
-- [MrPrimate's release page](https://github.com/MrPrimate/ddb-data-grabber/releases)
 - [IamWarhead's release page](https://github.com/IamWarHead/ddb-data-grabber/releases)
+- [MrPrimate's release page](https://github.com/MrPrimate/ddb-data-grabber/releases)
 
 1. Unzip the release
 2. Go to Chrome Extensions page (Menu->More Tools->Extensions)
@@ -26,11 +26,14 @@ Download the latest release zip from one of the following urls:
 &nbsp;
 
 
-## Importing the collected data into DDB Importer & DDB Gamelog
-### Importing into DDB Importer
-![](docs/paste_cookie.gif) <!-- You should change this image -->
-
-&nbsp;
+## Importing the collected data into DDB Gamelog & DDB Importer
 
 ### Importing into DDB Gamelog
+
 ![](docs/pasteData_gamelog.gif)
+
+&nbsp; 
+
+### Importing into DDB Importer
+
+![](docs/paste_cookie.gif) <!-- You should change this image -->
