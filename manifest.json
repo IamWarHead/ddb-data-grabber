@@ -1,0 +1,41 @@
+{
+  "name": "DDB Data Grabber",
+  "version": "0.0.3",
+  "description": "Transports your dndbeyond.com characters and dice rolls to Foundry Table Top. For more details see https://github.com/mrprimate/ddb-importer https://github.com/iamwarhead/ddb-game-log",
+  "manifest_version": 2,
+  "icons": {
+    "32": "icons/icon-32x32.png",
+    "38": "icons/icon-38x38.png",
+    "64": "icons/icon-64x64.png",
+    "128": "icons/icon-128x128.png"
+  },
+  "permissions": [
+    "storage",
+    "cookies",
+    "activeTab",
+    "tabs",
+    "declarativeContent",
+    "https://dndbeyond.com/*",
+    "https://*.dndbeyond.com/*",
+    "clipboardWrite"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://*.dndbeyond.com/*"],
+      "js": ["content.js"],
+      "all_frames": true
+    }
+  ],
+  "web_accessible_resources": [
+    "agent.js"
+  ],
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "32": "icons/icon-32x32.png",
+      "38": "icons/icon-38x38.png",
+      "64": "icons/icon-64x64.png",
+      "128": "icons/icon-128x128.png"
+    }
+  }
+}

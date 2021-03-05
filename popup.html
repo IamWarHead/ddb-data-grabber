@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      button {
+        height: 30px;
+        width: 250px;
+        outline: none;
+      }
+      .title {
+        width: 250px;
+      }
+
+      #desc.err {
+        color: red;
+      }
+
+      #desc {
+        color: green;
+      }
+    </style>
+  </head>
+  <body>
+    <strong class="title">DDB Data Grabber</Strong>
+    <p id="desc"></p>
+    <button id="getDataButton">Copy data to clipboard</button>
+    <script src="background.js"></script>
+  </body>
+</html>
