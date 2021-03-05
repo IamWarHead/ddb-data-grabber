@@ -9,8 +9,8 @@ Right now it helps you extract the dndbeyond.com Cobalt Session token and Cobalt
 ## Installation
 
 Download the latest release zip from one of the following urls:
-- [MrPrimate's release page](https://github.com/MrPrimate/ddb-importer-chrome/releases)
-- [IamWarhead's release page](https://github.com/IamWarHead/ddb-importer-chrome/releases)
+- [MrPrimate's release page](https://github.com/MrPrimate/ddb-data-grabber/releases)
+- [IamWarhead's release page](https://github.com/IamWarHead/ddb-data-grabber/releases)
 
 1. Unzip the release
 2. Go to Chrome Extensions page (Menu->More Tools->Extensions)
